@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '4.2.1' 			# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'sass-rails', '~> 5.0'  	# Use SCSS for stylesheets
@@ -9,7 +10,7 @@ gem 'turbolinks'				# Turbolinks makes following links in your web application f
 gem 'jbuilder', '~> 2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootstrap-sass'
 
-group :deveolpment, :test do
+group :development, :test do
 	gem 'sqlite3' 					# Use sqlite3 as the database for Active Record
 end
 
