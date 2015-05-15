@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def adventures
+  end
 end
