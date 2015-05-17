@@ -81,4 +81,8 @@ Rails.application.configure do
   #Note to set this to actual host name
   config.action_mailer.default_url_options = { :host => 'tuckersageraney.herokuapp.com/' }
 
+  #Let Paperclip know where to look 
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
+  Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+
 end

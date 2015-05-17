@@ -10,6 +10,8 @@ gem 'turbolinks'				# Turbolinks makes following links in your web application f
 gem 'jbuilder', '~> 2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
+gem 'paperclip', '~>4.2.1'
+
 
 group :development, :test do
 	gem 'sqlite3' 					# Use sqlite3 as the database for Active Record
