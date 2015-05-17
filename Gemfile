@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'		# Build JSON APIs with ease. Read more: https://github
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2.1'
-gem 'aws-sdk', '~> 2.0.43'
+gem 'aws-sdk', '< 2.0'
 
 
 group :development, :test do
